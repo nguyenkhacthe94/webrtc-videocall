@@ -14,9 +14,9 @@ let peer;
 
 function init(userId) {
     peer = new Peer(userId, {
-        host: '192.168.1.20',
+        host: '42.114.171.135',
         port: 9000,
-        path: '/webrtc-videocall'
+        path: '/call'
     });
 
     peer.on('open', () => {
